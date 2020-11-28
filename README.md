@@ -6,7 +6,11 @@
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
-2. Build the executable file
+2. Install the mux router
+   ```sh
+   go get -u github.com/gorilla/mux
+   ```
+3. Build the executable file
    ```sh
    go build && ./go-restful.exe
    ```
